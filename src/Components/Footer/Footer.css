@@ -1,4 +1,8 @@
-Footer{
+.Footer {
+    color: white;
     height: 6vh;
-
-}
+    background-color: black;
+    margin: 0%;
+    text-align: center;
+    }
+    

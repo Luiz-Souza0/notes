@@ -4,11 +4,9 @@ import React from 'react';
 
 function Header () {
 
-
-
 return(
 <div className='Header'>
-<p> Header aqui</p>
+<p> Notes from luiz</p>
 </div>
 );
 

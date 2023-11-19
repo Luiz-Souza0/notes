@@ -13,9 +13,9 @@ function App() {
 
   return (    
   <Router> 
-    <div className='main-content'>
-      <Header/>
+      <Header className='left'/>
 
+    <div className='main-content'>
       <Routes>
         <Route path="/" element={
              <main>
@@ -48,10 +48,12 @@ function App() {
 {     /*   <Route path="/products" element={<Products />} />*/ }
           <Route path="/notes" element={<Notes />} />
 
-        </Routes>
-      <Footer />
+        </Routes>      
+        </div>
+
+      <Footer/>
       
-      </div>
+
   </Router>
   );
 }
